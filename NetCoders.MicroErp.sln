@@ -1,0 +1,104 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Bll", "Bll", "{F96F5E4A-D9B7-447B-9BC3-FB2DABDD43EB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dal", "Dal", "{360910F0-6291-42DF-8657-1625A35EF45D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{C032934A-1AE5-4DFA-994D-10FE580CBA90}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{4ADD5810-35CA-4925-A1EA-6E315D64E531}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroErp.Bll", "src\Bll\MicroErp.Bll.csproj", "{738191E1-6A73-44BE-B3E0-FACC15C49861}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroErp.Common", "src\Common\MicroErp.Common.csproj", "{FFF0C3DA-542B-486A-AC2C-ABA30A6C7A91}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dal", "src\Dal\Dal.csproj", "{7FA4A8E4-4A29-45C8-BE4F-11931914D131}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCoders.MicroErp.UI.Mvc", "src\UI\NetCoders.MicroErp.UI.Mvc\NetCoders.MicroErp.UI.Mvc.csproj", "{CD2639AB-186C-4B2E-A515-2F6F8102BD94}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataBase", "DataBase", "{FBCC3BBD-DE00-4D82-8B9D-8C3F521E9221}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "NetCoders.MicroErp.Database", "src\DataBase\NetCoders.MicroErp.Database\NetCoders.MicroErp.Database.sqlproj", "{34FF88BC-52A0-48E4-80D3-8C7770D9096A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "IoC", "IoC", "{42C842BD-1F84-47BA-BF91-7788E71EE31B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IoC", "src\IoC\IoC.csproj", "{8E5A1E32-09C9-4D1B-9BB2-0287063FF147}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 7
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://charlesmendes.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = src\\Bll\\MicroErp.Bll.csproj
+		SccProjectTopLevelParentUniqueName1 = NetCoders.MicroErp.sln
+		SccProjectName1 = src/Bll
+		SccLocalPath1 = src\\Bll
+		SccProjectUniqueName2 = src\\Common\\MicroErp.Common.csproj
+		SccProjectTopLevelParentUniqueName2 = NetCoders.MicroErp.sln
+		SccProjectName2 = src/Common
+		SccLocalPath2 = src\\Common
+		SccProjectUniqueName3 = src\\Dal\\Dal.csproj
+		SccProjectTopLevelParentUniqueName3 = NetCoders.MicroErp.sln
+		SccProjectName3 = src/Dal
+		SccLocalPath3 = src\\Dal
+		SccProjectUniqueName4 = src\\UI\\NetCoders.MicroErp.UI.Mvc\\NetCoders.MicroErp.UI.Mvc.csproj
+		SccProjectTopLevelParentUniqueName4 = NetCoders.MicroErp.sln
+		SccProjectName4 = src/UI/NetCoders.MicroErp.UI.Mvc
+		SccLocalPath4 = src\\UI\\NetCoders.MicroErp.UI.Mvc
+		SccProjectUniqueName5 = src\\DataBase\\NetCoders.MicroErp.Database\\NetCoders.MicroErp.Database.sqlproj
+		SccProjectTopLevelParentUniqueName5 = NetCoders.MicroErp.sln
+		SccProjectName5 = src/DataBase/NetCoders.MicroErp.Database
+		SccLocalPath5 = src\\DataBase\\NetCoders.MicroErp.Database
+		SccProjectUniqueName6 = src\\IoC\\IoC.csproj
+		SccProjectTopLevelParentUniqueName6 = NetCoders.MicroErp.sln
+		SccProjectName6 = src/IoC
+		SccLocalPath6 = src\\IoC
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{738191E1-6A73-44BE-B3E0-FACC15C49861}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{738191E1-6A73-44BE-B3E0-FACC15C49861}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{738191E1-6A73-44BE-B3E0-FACC15C49861}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{738191E1-6A73-44BE-B3E0-FACC15C49861}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFF0C3DA-542B-486A-AC2C-ABA30A6C7A91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFF0C3DA-542B-486A-AC2C-ABA30A6C7A91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFF0C3DA-542B-486A-AC2C-ABA30A6C7A91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFF0C3DA-542B-486A-AC2C-ABA30A6C7A91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FA4A8E4-4A29-45C8-BE4F-11931914D131}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FA4A8E4-4A29-45C8-BE4F-11931914D131}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FA4A8E4-4A29-45C8-BE4F-11931914D131}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FA4A8E4-4A29-45C8-BE4F-11931914D131}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD2639AB-186C-4B2E-A515-2F6F8102BD94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD2639AB-186C-4B2E-A515-2F6F8102BD94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD2639AB-186C-4B2E-A515-2F6F8102BD94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD2639AB-186C-4B2E-A515-2F6F8102BD94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34FF88BC-52A0-48E4-80D3-8C7770D9096A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34FF88BC-52A0-48E4-80D3-8C7770D9096A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34FF88BC-52A0-48E4-80D3-8C7770D9096A}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{34FF88BC-52A0-48E4-80D3-8C7770D9096A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34FF88BC-52A0-48E4-80D3-8C7770D9096A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34FF88BC-52A0-48E4-80D3-8C7770D9096A}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{8E5A1E32-09C9-4D1B-9BB2-0287063FF147}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E5A1E32-09C9-4D1B-9BB2-0287063FF147}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E5A1E32-09C9-4D1B-9BB2-0287063FF147}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E5A1E32-09C9-4D1B-9BB2-0287063FF147}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{738191E1-6A73-44BE-B3E0-FACC15C49861} = {F96F5E4A-D9B7-447B-9BC3-FB2DABDD43EB}
+		{FFF0C3DA-542B-486A-AC2C-ABA30A6C7A91} = {4ADD5810-35CA-4925-A1EA-6E315D64E531}
+		{7FA4A8E4-4A29-45C8-BE4F-11931914D131} = {360910F0-6291-42DF-8657-1625A35EF45D}
+		{CD2639AB-186C-4B2E-A515-2F6F8102BD94} = {C032934A-1AE5-4DFA-994D-10FE580CBA90}
+		{34FF88BC-52A0-48E4-80D3-8C7770D9096A} = {FBCC3BBD-DE00-4D82-8B9D-8C3F521E9221}
+		{8E5A1E32-09C9-4D1B-9BB2-0287063FF147} = {42C842BD-1F84-47BA-BF91-7788E71EE31B}
+	EndGlobalSection
+EndGlobal
